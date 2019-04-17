@@ -1,0 +1,34 @@
+{
+  "name": "eslint-jest-sample",
+  "version": "1.0.0",
+  "description": "It is sample project for ESlint + JEst and NPM scripts configureation",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint *.js",
+    "lint:fix": "eslint *.js --fix",
+    "pretest": "npm run lint",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitalicernomschi/eslint-jest-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitalicernomschi/eslint-jest-sample/issues"
+  },
+  "homepage": "https://github.com/vitalicernomschi/eslint-jest-sample#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.1",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "^24.7.1"
+  },
+  "dependencies": {}
+}
